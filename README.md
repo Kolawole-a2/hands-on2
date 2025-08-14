@@ -17,7 +17,7 @@ An end-to-end, **detection → explanation → prescription** pipeline:
 ## Setup
 
 ```bash
-cd "my cursor projects/hands-on"
+cd "documents/hands-on"
 python -m venv .venv
 # Windows:
 .venv\Scripts\activate
@@ -107,7 +107,8 @@ An end-to-end, **detection → explanation → prescription** pipeline:
 ## Setup
 
 ```bash
-cd "my cursor projects/hands-on"
+cd "documents/hands-on2"
+
 python -m venv .venv
 # Windows:
 .venv\Scripts\activate
@@ -178,7 +179,7 @@ SHAP uses a tiny background (median point) to stay fast.
 
 ---
 
-### File: `my cursor projects/hands-on/TESTING.md`
+### File: `/Documents/hands-on2/TESTING.md`
 ```markdown
 # TESTING
 
@@ -228,7 +229,7 @@ Confidence and SHAP values will differ run-to-run due to synthesized data and Au
 
 ---
 
-### File: `my cursor projects/hands-on/.github/workflows/lint.yml`
+### File: `documents/hands-on/.github/workflows/lint.yml`
 ```yaml
 name: Lint
 
